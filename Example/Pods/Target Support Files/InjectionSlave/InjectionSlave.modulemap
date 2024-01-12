@@ -1,0 +1,6 @@
+framework module InjectionSlave {
+  umbrella header "InjectionSlave-umbrella.h"
+
+  export *
+  module * { export * }
+}

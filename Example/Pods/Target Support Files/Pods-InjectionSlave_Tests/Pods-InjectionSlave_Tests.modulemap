@@ -1,0 +1,6 @@
+framework module Pods_InjectionSlave_Tests {
+  umbrella header "Pods-InjectionSlave_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
