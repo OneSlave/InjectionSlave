@@ -13,31 +13,27 @@ Pod::Spec.new do |s|
   script_one = <<-CMD
     injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle
     filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h
-    if [[ ! -e injectPath ]];then
+    if [[ ! -e $injectPath ]];then
     	injectPath=$(dirname $(dirname "$PWD"))/InjectionSlave/Assets/iOSInjection.bundle
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
-    if [[ -e injectPath ]];then
+    if [[ -e $injectPath ]];then
         chmod +w $filePath
         cat /dev/null > $filePath
         echo '#define InjectionBundlePath @"'$injectPath'"' >> $filePath
-    else
-        echo "====>【"$(pwd)"】<===="
     fi
   CMD
   script_two = <<-CMD
     injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle
     filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h
-    if [[ ! -e injectPath ]];then
+    if [[ ! -e $injectPath ]];then
     	injectPath=$(dirname $(dirname "$PWD"))/InjectionSlave/Assets/iOSInjection.bundle
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
-    if [[ -e injectPath ]];then
+    if [[ -e $injectPath ]];then
         chmod +w $filePath
         cat /dev/null > $filePath
         echo '#define InjectionBundlePath @""' >> $filePath
-    else
-        echo "====>【"$(pwd)"】<===="
     fi
   CMD
   s.script_phases = [
