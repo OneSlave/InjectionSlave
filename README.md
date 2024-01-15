@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+```
+ios, "11.0"
+```
 
 ## Installation
 
@@ -17,12 +20,19 @@ InjectionSlave is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'InjectionSlave'
+pod 'InjectionSlave', :configurations => ['Debug']
 ```
 
-## Author
+## Usage
+```
+#import <UIViewController+Injection.h>
 
-OneSlave, oneslave@github.com
+- (void)injectedNotifi {
+    [super injectedNotifi];
+    // need reload code
+    ...
+}
+```
 
 ## License
 
