@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
     if [[ -e injectPath ]];then
-        echo "---->【"$filePath"】<----"
         chmod +w $filePath
         cat /dev/null > $filePath
         echo '#define InjectionBundlePath @"'$injectPath'"' >> $filePath
@@ -34,7 +33,6 @@ Pod::Spec.new do |s|
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
     if [[ -e injectPath ]];then
-        echo "---->【"$filePath"】<----"
         chmod +w $filePath
         cat /dev/null > $filePath
         echo '#define InjectionBundlePath @""' >> $filePath
