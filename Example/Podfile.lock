@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  InjectionSlave: bf515a2a01cd52c1a19625bb7866ca531f2a0bdd
+  InjectionSlave: 0a4ea134fa8580052c993245780b4faafef99708
 
 PODFILE CHECKSUM: debb265d2451952a9a1d37fb47ba0569d1a5baaf
 

@@ -17,9 +17,14 @@ Pod::Spec.new do |s|
     	injectPath=$(dirname $(dirname "$PWD"))/InjectionSlave/Assets/iOSInjection.bundle
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
-    chmod +w $filePath
-    cat /dev/null > $filePath
-    echo '#define InjectionBundlePath @"'$injectPath'"' >> $filePath
+    if [[ -e injectPath ]];then
+        echo "---->【"$filePath"】<----"
+        chmod +w $filePath
+        cat /dev/null > $filePath
+        echo '#define InjectionBundlePath @"'$injectPath'"' >> $filePath
+    else
+        echo "====>【"$(pwd)"】<===="
+    fi
   CMD
   script_two = <<-CMD
     injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle
@@ -28,9 +33,14 @@ Pod::Spec.new do |s|
     	injectPath=$(dirname $(dirname "$PWD"))/InjectionSlave/Assets/iOSInjection.bundle
         filePath=$(dirname $(dirname "$PWD"))/InjectionSlave/Classes/Injection.h
     fi
-    chmod +w $filePath
-    cat /dev/null > $filePath
-    echo '#define InjectionBundlePath @""' >> $filePath
+    if [[ -e injectPath ]];then
+        echo "---->【"$filePath"】<----"
+        chmod +w $filePath
+        cat /dev/null > $filePath
+        echo '#define InjectionBundlePath @""' >> $filePath
+    else
+        echo "====>【"$(pwd)"】<===="
+    fi
   CMD
   s.script_phases = [
     {:name => 'pod compile before', :script => script_one, :shell_path => '/bin/sh', :execution_position => :before_compile},

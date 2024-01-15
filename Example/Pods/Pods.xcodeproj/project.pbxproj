@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CE93056623B021CB41F044AA05A1B45 /* UIViewController+Injection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92372FF10C7053AA88F35C9670AF1F /* UIViewController+Injection.m */; };
-		12A1F6B01EA8F4831AA5255CD67CCC67 /* InjectionSlave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EDB6DF7B66B221809FC6570A38CB0E /* InjectionSlave-dummy.m */; };
-		25CFF5A66AF435F0CC4D7C7DB2EE11E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		24071DD34E733B7E7CC35159B6BCEC9A /* UIViewController+Injection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAD13F5A08013A4C52FA116DDE66C96 /* UIViewController+Injection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C5417328768877124BD09DC2D6B0DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		384503D66BEBCE714E37A517E781863E /* InjectionSlave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F1B12A61F70033EA33B721EF66C5B4 /* InjectionSlave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FF5C26653DF24EDF557D07FC1676EB /* UIViewController+Injection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B92372FF10C7053AA88F35C9670AF1F /* UIViewController+Injection.m */; };
 		49650B5EA2F78FB8311C99015FC0BC03 /* Pods-InjectionSlave_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8362E02F621F6BAE9B705070701ADE7F /* Pods-InjectionSlave_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		519FE79DC5FB5170C5FBB6BB9050AB08 /* InjectionSlave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F1B12A61F70033EA33B721EF66C5B4 /* InjectionSlave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60BD6D5AE8F7798F3F7320C54DEFFBA8 /* InjectionTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = 093F54303E558C63A5B65F8CAD24991A /* InjectionTrigger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59C0DCDF4B20BB6CF4B9A7E6C3CE5E76 /* Injection.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4CDDCDF494E3F021B918ADD695844A /* Injection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		62A85FFC107DEFE17158C2BA046436F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6DB7C49754C47EADDD1F4616B7F07F9E /* Injection.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4CDDCDF494E3F021B918ADD695844A /* Injection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7248924BB0B16E0B3E6870B0A6DCA88F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A1A759FC232989F318CB166CAEC56B44 /* iOSInjection.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54947FCD3CBF208667DDD5FFDFD595FC /* iOSInjection.bundle */; };
+		9CEC4481AB02EFD790F2524F36B6C0EB /* InjectionTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = 093F54303E558C63A5B65F8CAD24991A /* InjectionTrigger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A67DEE706F9A1E9A09FB0936DCB89448 /* Pods-InjectionSlave_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C526CDE7C09186DE42A7C213BCCEFB /* Pods-InjectionSlave_Example-dummy.m */; };
+		AAF04D9B9F0DC5605BA16BE5E38222F3 /* iOSInjection.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54947FCD3CBF208667DDD5FFDFD595FC /* iOSInjection.bundle */; };
 		C1784F1891320A445632FCE6D174B527 /* Pods-InjectionSlave_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DE3A4BF1DA304AAABE97E736F20E48 /* Pods-InjectionSlave_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA85D8A6BF9A8549D5842D4E15C32A8B /* InjectionTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = E59AD488B60A3C42A86BAA862D9D3C34 /* InjectionTrigger.m */; };
+		E114C8E324BA55548D38069BE6A451E5 /* InjectionSlave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EDB6DF7B66B221809FC6570A38CB0E /* InjectionSlave-dummy.m */; };
+		E1CD110B004C521E91BC3E814C10E047 /* InjectionTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = E59AD488B60A3C42A86BAA862D9D3C34 /* InjectionTrigger.m */; };
 		E6BCCC121E3CD1E02AEA9BF270922ED4 /* Pods-InjectionSlave_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4381F4A1BA80B1DA41F4D988D1B979A8 /* Pods-InjectionSlave_Tests-dummy.m */; };
-		FF2D868EFC1EF196A317ED40FB0D0841 /* UIViewController+Injection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAD13F5A08013A4C52FA116DDE66C96 /* UIViewController+Injection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +83,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08738EC716C928ED578879E962335B09 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CFF5A66AF435F0CC4D7C7DB2EE11E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E5F5077B9363D1636DF59C251038A95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +96,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7248924BB0B16E0B3E6870B0A6DCA88F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A07AFC3B00814F4228A08B72A7DCFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C5417328768877124BD09DC2D6B0DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,14 +241,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1312EE1A9DAFDC7711F2372A08E961EF /* Headers */ = {
+		4AD963117CFAE89E88AB8CEC38688DD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB7C49754C47EADDD1F4616B7F07F9E /* Injection.h in Headers */,
-				519FE79DC5FB5170C5FBB6BB9050AB08 /* InjectionSlave-umbrella.h in Headers */,
-				60BD6D5AE8F7798F3F7320C54DEFFBA8 /* InjectionTrigger.h in Headers */,
-				FF2D868EFC1EF196A317ED40FB0D0841 /* UIViewController+Injection.h in Headers */,
+				59C0DCDF4B20BB6CF4B9A7E6C3CE5E76 /* Injection.h in Headers */,
+				384503D66BEBCE714E37A517E781863E /* InjectionSlave-umbrella.h in Headers */,
+				9CEC4481AB02EFD790F2524F36B6C0EB /* InjectionTrigger.h in Headers */,
+				24071DD34E733B7E7CC35159B6BCEC9A /* UIViewController+Injection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +311,14 @@
 		};
 		EF4D1983AECCA8D7E24DA99360A526D4 /* InjectionSlave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F34A8BDC1C74DA2537FE3D8C11DEB97 /* Build configuration list for PBXNativeTarget "InjectionSlave" */;
+			buildConfigurationList = 91F9A2CBAE9311A31928E67CF06E8033 /* Build configuration list for PBXNativeTarget "InjectionSlave" */;
 			buildPhases = (
-				1312EE1A9DAFDC7711F2372A08E961EF /* Headers */,
-				4D0CABFD251822E944B6EBCCEFAD006F /* [CP-User] pod compile before */,
-				EEAE17E6D0E22FF69EE5099EE51C6054 /* Sources */,
-				08738EC716C928ED578879E962335B09 /* Frameworks */,
-				2B9F922AA9C401C2B58FDCA1DDFD3CF6 /* Resources */,
-				9A00C1B0B6DA1E32AD40A92B10A55DFA /* [CP-User] pod compile after */,
+				4AD963117CFAE89E88AB8CEC38688DD7 /* Headers */,
+				9949EEAF015A986C8D8F494CE10C13AC /* [CP-User] pod compile before */,
+				EE09D05B1E7FE5BB34366D1587DB3656 /* Sources */,
+				9A07AFC3B00814F4228A08B72A7DCFAD /* Frameworks */,
+				CFFD8EF92D51B080451F1A99F4515277 /* Resources */,
+				53C329698D35A20E1AB7EAFAD6EE3A2C /* [CP-User] pod compile after */,
 			);
 			buildRules = (
 			);
@@ -359,14 +359,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B9F922AA9C401C2B58FDCA1DDFD3CF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1A759FC232989F318CB166CAEC56B44 /* iOSInjection.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		829D7A48E8708AA6D28EB4F0F012A525 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,20 +373,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFFD8EF92D51B080451F1A99F4515277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF04D9B9F0DC5605BA16BE5E38222F3 /* iOSInjection.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D0CABFD251822E944B6EBCCEFAD006F /* [CP-User] pod compile before */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] pod compile before";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "    injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle\n    filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h\n    if [[ ! -e injectPath ]];then\n    \tinjectPath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Assets/iOSInjection.bundle\n        filePath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Classes/Injection.h\n    fi\n    chmod +w $filePath\n    cat /dev/null > $filePath\n    echo '#define InjectionBundlePath @\"'$injectPath'\"' >> $filePath\n";
-		};
-		9A00C1B0B6DA1E32AD40A92B10A55DFA /* [CP-User] pod compile after */ = {
+		53C329698D35A20E1AB7EAFAD6EE3A2C /* [CP-User] pod compile after */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,7 +392,17 @@
 			name = "[CP-User] pod compile after";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "    injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle\n    filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h\n    if [[ ! -e injectPath ]];then\n    \tinjectPath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Assets/iOSInjection.bundle\n        filePath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Classes/Injection.h\n    fi\n    chmod +w $filePath\n    cat /dev/null > $filePath\n    echo '#define InjectionBundlePath @\"\"' >> $filePath\n";
+			shellScript = "    injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle\n    filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h\n    if [[ ! -e injectPath ]];then\n    \tinjectPath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Assets/iOSInjection.bundle\n        filePath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Classes/Injection.h\n    fi\n    if [[ -e injectPath ]];then\n        chmod +w $filePath\n        cat /dev/null > $filePath\n        echo '#define InjectionBundlePath @\"\"' >> $filePath\n    else\n        echo \"=====>【\"$(pwd)\"】\"\n    fi\n";
+		};
+		9949EEAF015A986C8D8F494CE10C13AC /* [CP-User] pod compile before */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] pod compile before";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "    injectPath=$(pwd)/InjectionSlave/InjectionSlave/Assets/iOSInjection.bundle\n    filePath=$(pwd)/InjectionSlave/InjectionSlave/Classes/Injection.h\n    if [[ ! -e injectPath ]];then\n    \tinjectPath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Assets/iOSInjection.bundle\n        filePath=$(dirname $(dirname \"$PWD\"))/InjectionSlave/Classes/Injection.h\n    fi\n    if [[ -e injectPath ]];then\n        chmod +w $filePath\n        cat /dev/null > $filePath\n        echo '#define InjectionBundlePath @\"'$injectPath'\"' >> $filePath\n    else\n        echo \"=====>【\"$(pwd)\"】\"\n    fi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -423,13 +423,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEAE17E6D0E22FF69EE5099EE51C6054 /* Sources */ = {
+		EE09D05B1E7FE5BB34366D1587DB3656 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A1F6B01EA8F4831AA5255CD67CCC67 /* InjectionSlave-dummy.m in Sources */,
-				CA85D8A6BF9A8549D5842D4E15C32A8B /* InjectionTrigger.m in Sources */,
-				0CE93056623B021CB41F044AA05A1B45 /* UIViewController+Injection.m in Sources */,
+				E114C8E324BA55548D38069BE6A451E5 /* InjectionSlave-dummy.m in Sources */,
+				E1CD110B004C521E91BC3E814C10E047 /* InjectionTrigger.m in Sources */,
+				44FF5C26653DF24EDF557D07FC1676EB /* UIViewController+Injection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +484,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2242329883283055DDF8759357D045D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229876A925C9CC4C5ACBFB3E0CB2CF6E /* InjectionSlave.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InjectionSlave/InjectionSlave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InjectionSlave/InjectionSlave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InjectionSlave/InjectionSlave.modulemap";
+				PRODUCT_MODULE_NAME = InjectionSlave;
+				PRODUCT_NAME = InjectionSlave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2649F9355B749F8B6301B8BE5E456BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423D0E0C60427DF9BB391D75465A34AD /* InjectionSlave.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InjectionSlave/InjectionSlave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InjectionSlave/InjectionSlave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InjectionSlave/InjectionSlave.modulemap";
+				PRODUCT_MODULE_NAME = InjectionSlave;
+				PRODUCT_NAME = InjectionSlave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6A93F14F10985F502F31780679C7BA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -579,37 +642,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		8F31C66DD9B149048DFC0BB662DA9872 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 423D0E0C60427DF9BB391D75465A34AD /* InjectionSlave.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/InjectionSlave/InjectionSlave-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InjectionSlave/InjectionSlave-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/InjectionSlave/InjectionSlave.modulemap";
-				PRODUCT_MODULE_NAME = InjectionSlave;
-				PRODUCT_NAME = InjectionSlave;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AE4914413D0B3F3C1B7B118B7E189027 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -710,38 +742,6 @@
 			};
 			name = Debug;
 		};
-		E29361CD1631DD1B7F2E4DD36EE4FD0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 229876A925C9CC4C5ACBFB3E0CB2CF6E /* InjectionSlave.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/InjectionSlave/InjectionSlave-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InjectionSlave/InjectionSlave-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/InjectionSlave/InjectionSlave.modulemap";
-				PRODUCT_MODULE_NAME = InjectionSlave;
-				PRODUCT_NAME = InjectionSlave;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EE1F0CB69C3E25B0AC299E0EDA8E1B19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4E6B2F150B03733989094E520D4186C /* Pods-InjectionSlave_Tests.release.xcconfig */;
@@ -788,11 +788,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F34A8BDC1C74DA2537FE3D8C11DEB97 /* Build configuration list for PBXNativeTarget "InjectionSlave" */ = {
+		91F9A2CBAE9311A31928E67CF06E8033 /* Build configuration list for PBXNativeTarget "InjectionSlave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F31C66DD9B149048DFC0BB662DA9872 /* Debug */,
-				E29361CD1631DD1B7F2E4DD36EE4FD0E /* Release */,
+				2649F9355B749F8B6301B8BE5E456BB2 /* Debug */,
+				2242329883283055DDF8759357D045D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
