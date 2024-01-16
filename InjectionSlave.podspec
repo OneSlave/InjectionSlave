@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'InjectionSlave'
-  s.version             = '0.0.1'
+  s.version             = '0.0.2'
   s.summary             = 'auto load injectionIII.'
   s.homepage            = 'https://github.com/OneSlave/InjectionSlave'
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
